@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 900px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Barra lateral */
+.sidebar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+/* Títulos en sidebar */
+.sidebar h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+/* Texto sidebar */
+.sidebar p,
+.sidebar li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Contenido principal */
+.main {
+    padding: 20px;
+}
+
+/* Nombre principal */
+.main h1 {
+    color: #2c3e50;
+}
+
+/* Subtítulos */
+.main h2 {
+    margin-top: 20px;
+    color: #34495e;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* Texto general */
+.main p,
+.main li {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Estilo para listas */
+ul {
+    list-style: none;
+}
+
+/* Nombre */
+.nombre {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Perfil */
+.perfil {
+    margin-top: 10px;
+}
